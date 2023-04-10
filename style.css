@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+:root {
+  color: #ce7b91;
+  font-family: "Raleway", sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+}
+body {
+  background-color: #635255;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #29b1eb;
+  height: 30px;
+  width: 110px;
+  margin: 30px;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.home {
+  max-width: 50%;
+  margin-left: 25%;
+}
+
+.restaurant_hours {
+  display: flex;
+  flex-direction: column;
+}
+.home,
+.contact,
+.menu {
+  outline: 2px solid;
+  padding: 20px;
+  min-width: 100px;
+}
