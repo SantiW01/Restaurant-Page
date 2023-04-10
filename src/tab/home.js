@@ -35,25 +35,25 @@ function Hours(div) {
   for (let i = 0; i < 7; i++) {
     switch (i) {
       case 0:
-        hours.textContent = "Sunday: 8am - 8pm.";
+        hours.innerHTML = `Sunday: 8am - 8pm.<br>`;
         break;
       case 1:
-        hours.textContent += "Monday: 6am - 6pm";
+        hours.innerHTML += `Monday: 8am - 8pm.<br>`;
         break;
       case 2:
-        hours.textContent += "Tuesday: 8am - 8pm";
+        hours.innerHTML += `Tuesday: 8am - 8pm.<br>`;
         break;
       case 3:
-        hours.textContent += "Wednesday: 8am - 8pm";
+        hours.innerHTML += `Wednesday: 8am - 8pm.<br>`;
         break;
       case 4:
-        hours.textContent += "Thursday: 8am - 8pm";
+        hours.innerHTML += `Thursday: 8am - 8pm.<br>`;
         break;
       case 5:
-        hours.textContent += "Friday: 8am - 8pm";
+        hours.innerHTML += `Friday: 8am - 8pm.<br>`;
         break;
       case 6:
-        hours.textContent += "Saturday: 8am - 8pm";
+        hours.innerHTML += `Saturday: 8am - 8pm.</br>`;
         break;
     }
   }

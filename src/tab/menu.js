@@ -37,7 +37,7 @@ function ThirdMenu(div) {
   div.appendChild(h1);
   const description = document.createElement("p");
   description.textContent =
-    "This is a great low-carb <strong>alternative</strong> to your standard homemade tacos. I love Mexican food and wasn't willing to part with tacos after starting my low-carb diet. This always satisfies my craving";
+    "This is a great low-carb alternative to your standard homemade tacos. I love Mexican food and wasn't willing to part with tacos after starting my low-carb diet. This always satisfies my craving";
   div.appendChild(description);
   return div;
 }
